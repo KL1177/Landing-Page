@@ -31,7 +31,8 @@ color: white;
 }
 
 .header_image {
-
+    height: 30px;
+    width: 60px;
 }
 
 a {
