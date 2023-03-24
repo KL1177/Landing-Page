@@ -26,8 +26,14 @@ color: white;
     font-weight: #F9FAF8;
 }
 
+.header_container {
+    display:flex;
+}
+
 .header_content {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .header_image {
