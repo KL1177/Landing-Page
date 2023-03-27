@@ -31,9 +31,8 @@ color: white;
 
 .header_container {
     display:flex;
-    justify-items: space-between;
-    gap: 75px;
-    width: 100%;
+    gap: 60px;
+    
     
 }
 
@@ -46,9 +45,8 @@ color: white;
 
 .header_image {
     display: flex;
-    width: 100%; 
-    height: auto;
-    
+    flex-wrap;
+    width: 50%;
 }
 
 a {
