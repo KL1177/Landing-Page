@@ -84,3 +84,17 @@ button {
     margin-bottom: 150px;
     margin-top: 30px;
 }
+
+/* Second portion of website styling */
+
+.second_container {
+    display: flex;
+}
+.information_header_text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    text-align: center;
+}
+
+
