@@ -99,9 +99,17 @@ button {
     text-align: center;
 }
 
-.second_image {
+.box {
     border: 3px solid blue;
     border-radius: 25px;
+    height: 200px;
+    width: 200px;
 
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
 }
 
