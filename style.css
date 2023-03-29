@@ -89,6 +89,8 @@ button {
 
 .second_container {
     display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 .information_header_text {
     font-size: 36px;
@@ -97,4 +99,9 @@ button {
     text-align: center;
 }
 
+.second_image {
+    border: 3px solid blue;
+    border-radius: 25px;
+
+}
 
