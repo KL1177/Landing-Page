@@ -99,6 +99,7 @@ button {
     text-align: center;
 }
 
+/* This may be needed when fix top image later 
 .box {
     border: 3px solid blue;
     border-radius: 25px;
@@ -107,9 +108,19 @@ button {
 
 }
 
+*/
+
 .info {
     display: flex;
     flex-wrap: wrap;
     max-width: 200px;
 }
 
+/* Come back to this section after page done */
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    border: 3px solid blue;
+}
