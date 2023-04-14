@@ -2,7 +2,7 @@
 
 .header, .footer {
 background-color: #1F2937;
-color: white;
+color: #E5E7EB;
 }
 
 .header {
@@ -15,18 +15,19 @@ color: white;
 
 .hero_main_text {
     font-size: 48px;
-    font-weight: #F9FAF8;
+    font-weight: 900;
+    color: #F9FAF8;
 }
 
 .hero_secondary_text, .header_link {
     font-size: 18px;
-    font-weight: #E5E7EB;
-    color: white;
+    color: #E5E7EB;
 }
 
 .header_logo_text {
     font-size: 24px;
-    font-weight: #F9FAF8;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .header_container {
@@ -67,7 +68,7 @@ button {
     padding: 10px;
     border-radius: 8px;
     width: 125px;
-    color: white;
+    color: #F9FAF8;
     background-color: #3882F6;
     font-weight: bold;
 }
@@ -102,28 +103,15 @@ button {
 .information_header_text {
     font-size: 36px;
     color: #1F2937;
-    font-weight: 800;
+    font-weight: 900;
     text-align: center;
 }
-
-/* This may be needed when fix top image later 
-.box {
-    border: 3px solid blue;
-    border-radius: 25px;
-    height: 200px;
-    width: 200px;
-
-}
-
-*/
 
 .info {
     display: flex;
     flex-wrap: wrap;
     max-width: 200px;
 }
-
-/* Come back to this section after page done */
 
 .box img {
     height: 200px;
@@ -149,7 +137,7 @@ button {
     justify-content: center;
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 300;
     color: #1F2937;
 }
 
@@ -161,7 +149,7 @@ button {
     font-size: 24px;
 }
 
-/* Button section */
+/* Fourth section/call to action button */
 
 .fourth {
     display: flex;
@@ -182,9 +170,9 @@ button {
     border-radius: 8px;
 }
 
-
 .button {
     border: 2px solid white;
+    font-size: 20px;
 }
 
 .button_text {
@@ -193,7 +181,12 @@ button {
 }
 
 .button_call {
-    font-weight: bold;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.button_sign {
+    font-size: 20px;
 }
 
 /* Footer section */
